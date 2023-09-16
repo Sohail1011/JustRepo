@@ -120,7 +120,7 @@ console.log(arregloPar); */
 
 /* --- Ejercicio 11 --- */
 
-const library = [
+/* const library = [
     {
         autor: 'Teri, Terio',
         title: 'Litle Witch Academia',
@@ -141,4 +141,4 @@ for (let i = 0; i < library.length; i++) {
         console.log(`Manga: ${library[i].title}`);
         console.log(`Autor: ${library[i].autor}`);
     }
-}
+} */
