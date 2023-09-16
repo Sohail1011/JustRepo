@@ -6,7 +6,7 @@ function factorialNumeral(number) {
 
 console.log(factorialNumeral(x)); */
 
-const notes = [80, 77, 88, 95, 68];
+/* const notes = [80, 77, 88, 95, 68];
 
 function promdioFinal(nota) {
     if (nota < 60) {
@@ -22,4 +22,22 @@ function promdioFinal(nota) {
     }
 }
 
-console.log(promdioFinal(notes[0]));
+console.log(promdioFinal(notes[0])); */
+
+/* const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < numeros.length; i++) {
+    const element = numeros[i];
+    if (element % 2 !== 0) {
+        console.log(`${element} Fizz`);
+    } else {
+        console.log(`${element}`)
+    }
+} */
+
+const arreglo = [5, 1, 8, 6, 3];
+
+for (let i = 0; i < arreglo.length; i++) {
+    const element = arreglo[i];
+    console.log(element);
+}
