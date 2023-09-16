@@ -92,6 +92,53 @@ console.log(exponenteBase(base, exponente)); */
 
 /* --- Ejercicio 8 --- */
 
-const arreglo = [2, 8, 5, 3, 1];
+/* const arreglo = [2, 8, 5, 3, 1];
 
-console.log(arreglo[0] + arreglo[1] + arreglo[2] + arreglo[3] + arreglo[4]);
+console.log(arreglo[0] + arreglo[1] + arreglo[2] + arreglo[3] + arreglo[4]); */
+
+/* --- Ejercicio 9 --- */
+
+/* const arreglo = [4, 5, 1, 8, 3];
+
+console.log(arreglo[3]); */
+
+/* --- Ejercicio 10 --- */
+
+/* const arreglo = [3, 4, 5, 12, 6, 1, 13];
+
+const arregloPar = [];
+
+let element;
+
+for (let i = 0; i < arreglo.length / 2; i++) {
+    let cen = arreglo[i];
+    arregloPar[i] = arreglo[arreglo[i] ** 2];
+    arregloPar[arreglo.length - 1 - i] = cen;
+}
+
+console.log(arregloPar); */
+
+/* --- Ejercicio 11 --- */
+
+const library = [
+    {
+        autor: 'Teri, Terio',
+        title: 'Litle Witch Academia',
+        readingStatus: true,
+    }, {
+        autor: 'Murute, Yusuke',
+        title: 'One Punch Man',
+        readingStatus: true,
+    }, {
+        autor: 'Azuma, Kiyohiko',
+        title: 'Yotsuba to!',
+        readingStatus: false,
+    }
+]
+
+for (let i = 0; i < library.length; i++) {
+    if (library[i].readingStatus === true) {
+        console.log(`Manga: ${library[i].title}`);
+        console.log(`Autor: ${library[i].autor}`);
+    }
+}
